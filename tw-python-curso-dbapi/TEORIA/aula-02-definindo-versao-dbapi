@@ -1,0 +1,9 @@
+# Definindo a versão da DB API a ser utilizada
+
+Para alterar a versão da DB API a ser utilizada em um projeto e, assim, conseguir utilizar implementações de outras versões, podemos alterar o parâmetro “apilevel” em nosso projeto e determinar qual versão será utilizada, como podemos ver abaixo:
+
+``` python
+# DEFININDO VERSÃO
+MySQLdb.apilevel = "1.0"
+
+```
